@@ -10,7 +10,6 @@ import HomeDark from './components/HomeDark';
 import HomeEight from './components/HomeEight';
 import HomeFive from './components/HomeFive';
 import HomeFour from './components/HomeFour';
-import HomeOne from './components/HomeOne';
 import HomeRtl from './components/HomeRtl';
 import HomeSeven from './components/HomeSeven';
 import HomeSix from './components/HomeSix';
@@ -41,7 +40,8 @@ function Routes() {
                 <Router>
                     <ScrollToTop>
                         <Switch>
-                            <Route exact path="/" component={HomeOne} />
+                            <Route exact path="/" component={HomeThree} />
+                            {/* <Route exact path="/" component={HomeOne} /> */}
                             <Route exact path="/home-two" component={Hometwo} />
                             <Route exact path="/home-three" component={HomeThree} />
                             <Route exact path="/home-four" component={HomeFour} />

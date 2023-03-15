@@ -30,7 +30,7 @@ function FunFactHomeThree() {
                                     <div className="col-lg-6">
                                         <div className="appie-fun-fact-content">
                                             <h3 className="title">
-                                                Get started with Appie Template.
+                                                Get started with WECODE.
                                             </h3>
                                             <p>
                                                 The app provides design and digital marketing,

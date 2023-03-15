@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import heroThumb from '../../assets/images/hero-thumb-4.png';
+import heroThumb from '../../assets/images/1.png';
 import PopupVideo from '../PopupVideo';
 
 function HeroHomeThree() {
@@ -21,10 +21,10 @@ function HeroHomeThree() {
                     <div className="row justify-content-center">
                         <div className="col-lg-10">
                             <div className="appie-hero-content text-center">
-                                <h1 className="appie-title">Creative way to Showcase your app</h1>
+                                <h1 className="appie-title">We create mobile Apps</h1>
+                                <h1 className="appie-title">loved around the world </h1>
                                 <p>
-                                    Jolly good excuse my french boot super my good sir cup of <br />
-                                    char richard about chinwag.
+                                Over 65 million users in more than 160 countries
                                 </p>
                                 <div className="hero-btns">
                                     <a className="main-btn" href="#">

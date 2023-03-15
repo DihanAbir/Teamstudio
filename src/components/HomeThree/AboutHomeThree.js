@@ -1,6 +1,6 @@
 import React from 'react';
-import aboutThumb from '../../assets/images/about-thumb-2.png';
-import aboutThumb3 from '../../assets/images/about-thumb-3.png';
+import aboutThumb3 from '../../assets/images/app.png';
+import aboutThumb from '../../assets/images/app2.png';
 import icon1 from '../../assets/images/icon/1.png';
 import icon5 from '../../assets/images/icon/5.svg';
 import icon6 from '../../assets/images/icon/6.svg';
@@ -24,7 +24,7 @@ function AboutHomeThree() {
                         <div className="col-lg-6">
                             <div className="appie-traffic-title">
                                 <h3 className="title">
-                                    Appie lets you launch your app in minutes.
+                                    Wecode lets you launch your app in minutes.
                                 </h3>
                                 <p>
                                     He nicked it tickety boo harry the cras bargy chap mush spiffing

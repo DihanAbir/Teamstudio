@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import logo from '../../assets/images/logo-3.png';
+import logo from '../../assets/images/Wecode-logo-17.png';
 import StickyMenu from '../../lib/StickyMenu';
 import Navigation from '../Navigation';
 
@@ -30,7 +30,7 @@ function HeaderHomeThree({ action }) {
                                     <a className="login-btn" href="#">
                                         <i className="fal fa-user" /> Login
                                     </a>
-                                    <a className="main-btn ml-30" href="#">
+                                    <a className="d-none  main-btn ml-30" href="#">
                                         Get Started
                                     </a>
                                     <div

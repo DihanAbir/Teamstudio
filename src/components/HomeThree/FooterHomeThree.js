@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import logo from '../../assets/images/logo-4.png';
+import logo from '../../assets/images/Wecode-logo-15.png';
 
 function FooterHomeThree({ className }) {
     return (
@@ -16,7 +16,7 @@ function FooterHomeThree({ className }) {
                                     </a>
                                 </div>
                                 <p>
-                                    Appie WordPress is theme is the last theme you will ever have.
+                                    wecode 
                                 </p>
                                 <a href="#">
                                     Read More <i className="fal fa-arrow-right" />

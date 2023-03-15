@@ -866,7 +866,7 @@ p {
   z-index: 999;
 }
 .appie-header-area.appie-header-2-area .appie-btn-box .main-btn {
-  background: #ff3e66;
+  background: #048d7f;
   border-radius: 30px;
   border-color: #ff3e66;
 }
@@ -5486,13 +5486,13 @@ blockquote cite {
 }
 
 .appie-project-3-box {
-  background-image: url(../images/project-bg-2.jpg);
+  background-image: url(../images/page-bg.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   border-radius: 10px;
   padding: 55px 70px;
-  box-shadow: 0px 40px 50px 0px rgba(138, 16, 0, 0.3);
+  box-shadow: 0px 40px 50px 0px rgba(0, 0, 0, 0.3);
   margin-bottom: -110px;
   position: relative;
   overflow: hidden;

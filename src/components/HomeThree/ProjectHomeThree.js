@@ -22,7 +22,7 @@ function ProjectHomeThree({ className }) {
                             >
                                 <h4 className="title">
                                     Start your project <br />
-                                    with Appie.
+                                    with Wecode.
                                 </h4>
                                 <a className="main-btn" href="#">
                                     Let’s Talk
