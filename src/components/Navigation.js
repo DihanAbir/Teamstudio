@@ -115,12 +115,12 @@ function Navigation({ lang = false }) {
                             </li>
                         </ul>
                     </li> */}
-                    <li>
+                    {/* <li>
                         <Link to="/service">Service</Link>
                     </li>
                     <li>
                         <a href="/about-us">About </a>
-                        {/* <ul className="sub-menu">
+                        <ul className="sub-menu">
                             <li>
                                 <Link to="/about-us">About</Link>
                             </li>
@@ -130,8 +130,8 @@ function Navigation({ lang = false }) {
                             <li>
                                 <Link to="/error">Error</Link>
                             </li>
-                        </ul> */}
-                    </li>
+                        </ul>
+                    </li> */}
                     {/* <li>
                         <a href="#">
                             News <i className="fal fa-angle-down" />
@@ -146,7 +146,8 @@ function Navigation({ lang = false }) {
                         </ul>
                     </li> */}
                     <li>
-                        <Link to="/contact">Contact</Link>
+                        {/* <Link to="/contact">Contact</Link> */}
+                        {/* <Link to="/">Contact</Link> */}
                     </li>
                 </ul>
             )}

@@ -94,7 +94,7 @@ function FooterHomeEight() {
                         <div className="col-lg-3 col-md-6">
                             <div className="footer-widget-info">
                                 <h4 className="title">Get In Touch</h4>
-                                <ul>
+                                {/* <ul>
                                     <li>
                                         <a href="#">
                                             <i className="fal fa-envelope"></i> support@appie.com
@@ -111,7 +111,7 @@ function FooterHomeEight() {
                                             Terre St Floor 7, San Francisco, AV 4206
                                         </a>
                                     </li>
-                                </ul>
+                                </ul> */}
                             </div>
                         </div>
                     </div>

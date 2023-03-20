@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
-import heroThumb from '../../assets/images/1.png';
 import PopupVideo from '../PopupVideo';
+ 
+import Typist from 'react-text-typist';
 
 function HeroHomeThree() {
     const [showVideo, setVideoValue] = useState(false);
@@ -21,12 +22,14 @@ function HeroHomeThree() {
                     <div className="row justify-content-center">
                         <div className="col-lg-10">
                             <div className="appie-hero-content text-center">
-                                <h1 className="appie-title">We create mobile Apps</h1>
-                                <h1 className="appie-title">loved around the world </h1>
+                                <h1 className="appie-title">We create <Typist sentences={['Apps', 'Websites', 'Games', "& More"]} typingSpeed ={180} loop={true} /></h1>
+                                
+
+                                {/* <h1 className="appie-title mb-5 pb-5">loved around the world </h1> */}
                                 <p>
-                                Over 65 million users in more than 160 countries
+                                {/* Over 65 million users in more than 160 countries */}
                                 </p>
-                                <div className="hero-btns">
+                                {/* <div className="hero-btns">
                                     <a className="main-btn" href="#">
                                         Get a Quote
                                     </a>
@@ -37,14 +40,14 @@ function HeroHomeThree() {
                                     >
                                         <i className="fas fa-play" /> Play Video
                                     </a>
-                                </div>
-                                <div
+                                </div> */}
+                                {/* <div
                                     className="thumb mt-100 wow animated fadeInUp"
                                     data-wow-duration="2000ms"
                                     data-wow-delay="400ms"
                                 >
                                     <img src={heroThumb} alt="" />
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                     </div>

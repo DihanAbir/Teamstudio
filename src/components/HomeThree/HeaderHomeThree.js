@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import logo from '../../assets/images/Wecode-logo-17.png';
+import logo from '../../assets/images/Wecode-logo-15.png';
 import StickyMenu from '../../lib/StickyMenu';
 import Navigation from '../Navigation';
 
@@ -25,7 +25,7 @@ function HeaderHomeThree({ action }) {
                                     <Navigation />
                                 </div>
                             </div>
-                            <div className="col-lg-4  col-md-7 col-sm-6 col-6 order-2 order-sm-3">
+                            {/* <div className="col-lg-4  col-md-7 col-sm-6 col-6 order-2 order-sm-3">
                                 <div className="appie-btn-box text-right">
                                     <a className="login-btn" href="#">
                                         <i className="fal fa-user" /> Login
@@ -40,7 +40,7 @@ function HeaderHomeThree({ action }) {
                                         <i className="fa fa-bars" />
                                     </div>
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>

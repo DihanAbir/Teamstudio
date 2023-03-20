@@ -12,16 +12,16 @@ function FooterHomeThree({ className }) {
                             <div className="footer-about-widget footer-about-widget-3">
                                 <div className="logo">
                                     <a href="#">
-                                        <img src={logo} alt="" />
+                                        <img height={70} src={logo} alt="" />
                                     </a>
                                 </div>
-                                <p>
+                                {/* <p>
                                     wecode 
                                 </p>
                                 <a href="#">
                                     Read More <i className="fal fa-arrow-right" />
-                                </a>
-                                <div className="social mt-30">
+                                </a> */}
+                                {/* <div className="social mt-30">
                                     <ul>
                                         <li>
                                             <a href="#">
@@ -44,10 +44,10 @@ function FooterHomeThree({ className }) {
                                             </a>
                                         </li>
                                     </ul>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
-                        <div className="col-lg-2 col-md-6">
+                        <div className="d-none col-lg-2 col-md-6">
                             <div className="footer-navigation footer-navigation-3">
                                 <h4 className="title">Company</h4>
                                 <ul>
@@ -71,9 +71,9 @@ function FooterHomeThree({ className }) {
                         </div>
                         <div className="col-lg-3 col-md-6">
                             <div className="footer-navigation footer-navigation-3">
-                                <h4 className="title">Support</h4>
+                                <h4 className="title">Company</h4>
                                 <ul>
-                                    <li>
+                                    {/* <li>
                                         <Link to="/about-us">Community</Link>
                                     </li>
                                     <li>
@@ -81,20 +81,38 @@ function FooterHomeThree({ className }) {
                                     </li>
                                     <li>
                                         <a href="#">Faqs</a>
+                                    </li> */}
+                                    <li>
+                                        <a href="/privacy">Privacy Policy</a>
                                     </li>
                                     <li>
-                                        <a href="#">Privacy Policy</a>
+                                        <a href="/Returun_policy">Returun  Policy</a>
                                     </li>
-                                    <li>
+                                    {/* <li>
                                         <a href="#">Careers</a>
-                                    </li>
+                                    </li> */}
                                 </ul>
                             </div>
                         </div>
                         <div className="col-lg-3 col-md-6">
                             <div className="footer-widget-info">
-                                <h4 className="title">Get In Touch</h4>
-                                <ul>
+                            <h4 className="title">Address</h4>
+                                    <ul>
+                                        <li>
+                                            <a href="#">  3883 Jubla Street</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">   Nahda, Dammam</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">   <p>Saudi Arabia, 34243</p></a>
+                                        </li>
+                                    </ul>
+                              
+                               
+                               
+                                {/* <h4 className="title">Get In Touch</h4> */}
+                                {/* <ul>
                                     <li>
                                         <a href="#">
                                             <i className="fal fa-envelope" /> support@appie.com
@@ -111,7 +129,7 @@ function FooterHomeThree({ className }) {
                                             St Floor 7, San Francisco, AV 4206
                                         </a>
                                     </li>
-                                </ul>
+                                </ul> */}
                             </div>
                         </div>
                     </div>
@@ -119,14 +137,14 @@ function FooterHomeThree({ className }) {
                         <div className="col-lg-12">
                             <div
                                 className="
-                footer-copyright
-                d-flex
-                align-items-center
-                justify-content-between
-                pt-35
-              "
+                        footer-copyright
+                        d-flex
+                        align-items-center
+                        justify-content-center
+                        pt-35
+                         " 
                             >
-                                <div className="apps-download-btn">
+                                {/* <div className="apps-download-btn">
                                     <ul>
                                         <li>
                                             <a href="#">
@@ -140,9 +158,9 @@ function FooterHomeThree({ className }) {
                                             </a>
                                         </li>
                                     </ul>
-                                </div>
+                                </div> */}
                                 <div className="copyright-text">
-                                    <p>Copyright © 2021 Appie. All rights reserved.</p>
+                                    <p>Copyright © 2023 Weecode. All rights reserved.</p>
                                 </div>
                             </div>
                         </div>

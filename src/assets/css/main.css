@@ -851,7 +851,7 @@ p {
   right: 0;
   z-index: 1010;
   background: #fff;
-  box-shadow: 0 15px 30px 0 #0000000f;
+  box-shadow: 0 11px 30px 0 #b5b2b20f;
   padding-top: 20px;
   padding-bottom: 20px;
   animation: sticky 1.2s;
@@ -875,7 +875,7 @@ p {
   color: #ff3e66;
 }
 .appie-header-area.appie-header-3-area.appie-sticky.sticky {
-  background: #0e1133;
+  background: #ffffff;
 }
 .appie-header-area.appie-header-4-area.appie-sticky.sticky {
   background: linear-gradient(90deg, #6b1fcd 0%, #374ede 100%);
@@ -1410,17 +1410,17 @@ p {
   background-repeat: no-repeat;
 }
 .appie-hero-area.appie-hero-3-area {
-  background-image: url(../images/hero-bg.jpg);
-  background-size: cover;
+  /* background-image: url(../images/hero-bg.jpg); */
+  /* background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
   padding-top: 180px;
   padding-bottom: 0px;
   overflow: visible;
   z-index: 15;
 }
 .appie-hero-area.appie-hero-3-area .appie-hero-content .appie-title {
-  color: #fff;
+  color: #202020;
   font-size: 70px;
   line-height: 80px;
   padding: 0 80px;
@@ -2194,10 +2194,10 @@ p {
 
 .appie-page-title-area {
   height: 450px;
-  background-image: url(../images/page-bg.jpg);
+  /* background-image: url(../images/page-bg.jpg);
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
   display: flex;
   align-items: center;
 }
@@ -2270,7 +2270,7 @@ p {
   padding-bottom: 14px;
 }
 .appie-page-title-item .title {
-  color: #fff;
+  color: #000000;
   font-size: 44px;
   font-weight: 700;
 }
@@ -2293,11 +2293,11 @@ p {
   padding: 0;
 }
 .appie-page-title-item nav ol li a {
-  color: #fff;
+  color: #000000;
   opacity: 0.8;
 }
 .appie-page-title-item nav ol li.active {
-  color: #fff;
+  color: #000000;
   opacity: 0.8;
 }
 
@@ -5533,7 +5533,7 @@ blockquote cite {
     10.APPIE FOOTER css 
 ===========================*/
 .appie-footer-area {
-  background: #eef1f6;
+  background: #fff;
   padding-top: 50px;
   padding-bottom: 60px;
 }
@@ -5741,7 +5741,7 @@ blockquote cite {
   font-size: 16px;
   font-weight: 400;
   margin-bottom: 10px;
-  padding-left: 30px;
+  /* padding-left: 30px; */
   position: relative;
 }
 .footer-widget-info ul li a i {
@@ -7212,8 +7212,18 @@ blockquote cite {
 ===========================*/
 .contact-section {
   position: relative;
-  background: #f7f6fa;
+  background: #fff;
   padding: 120px 0;
+}
+
+.border_wrapper{
+  border: 1px solid #e6e6e6;
+  padding: 40px;
+  border-radius: 10px;
+
+  box-shadow: 1px 2px 7px 5px rgba(209,209,209,0.75);
+-webkit-box-shadow: 1px 2px 7px 5px rgba(209,209,209,0.75);
+-moz-box-shadow: 1px 2px 7px 5px rgba(209,209,209,0.75);
 }
 
 .contact--info-area {
